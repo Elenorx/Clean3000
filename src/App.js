@@ -19,6 +19,7 @@ const App = () => {
 
   const handleCalendarClose = () => console.log("Calendar closed");
   const handleCalendarOpen = () => console.log("Calendar opened");
+  
 
   return (
     <div className="general">
