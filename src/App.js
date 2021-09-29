@@ -46,7 +46,8 @@ const App = () => {
         <DatePicker
           label="Sélectionner la date de rendez-vous"
           selected={date}
-          onChange={setDate(new Date())}
+          onChange={() => setDate(new Date())}
+          value={this.state.value}
           onCalendarClose={handleCalendarClose}
           onCalendarOpen={handleCalendarOpen}
         />
