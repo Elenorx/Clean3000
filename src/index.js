@@ -6,14 +6,14 @@ import reportWebVitals from "./reportWebVitals";
 import { AvisDePassage } from "./Component/AvisDePassage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-const Root = () => {
+const Root = () => (
   <Router>
     <Switch>
       <Route exact path="/" Component={App} />
       <Route path="/AvisDePassage" component={AvisDePassage} />
     </Switch>
-  </Router>;
-};
+  </Router>
+);
 
 ReactDOM.render(
   <React.StrictMode>
